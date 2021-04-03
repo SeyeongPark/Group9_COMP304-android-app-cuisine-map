@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CuisineListActivity"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/switchToChineseActivity"
+        android:layout_width="383dp"
+        android:layout_height="93dp"
+        android:onClick="switchActivities_onClick"
+        android:text="@string/main_activity_chinese" />
+
+    <Button
+        android:id="@+id/switchToFrenchActivity"
+        android:layout_width="383dp"
+        android:layout_height="93dp"
+        android:onClick="switchActivities_onClick"
+        android:text="@string/main_activity_french" />
+
+    <Button
+        android:id="@+id/switchToGreekActivity"
+        android:layout_width="383dp"
+        android:layout_height="93dp"
+        android:onClick="switchActivities_onClick"
+        android:text="@string/main_activity_greek" />
+
+    <Button
+        android:id="@+id/switchToItalianActivity"
+        android:layout_width="383dp"
+        android:layout_height="93dp"
+        android:onClick="switchActivities_onClick"
+        android:text="@string/main_activity_italian" />
+
+    <Button
+        android:id="@+id/switchToJapaneseActivity"
+        android:layout_width="383dp"
+        android:layout_height="93dp"
+        android:onClick="switchActivities_onClick"
+        android:text="@string/main_activity_japanese" />
+
+</LinearLayout>

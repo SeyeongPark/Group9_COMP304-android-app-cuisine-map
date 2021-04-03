@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">AlbuferaSeyeongVolpe</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="Restaurant">Restaurant</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="restaurant_locator">Eestaurant_locator</string>
+
+    //activity title strings
+    <string name="title_activity_chinese">Chinese Food</string>
+    <string name="title_activity_french">French Food</string>
+    <string name="title_activity_greek">Greek Food</string>
+    <string name="title_activity_italian">Italian Food</string>
+    <string name="title_activity_japanese">Japanese Food</string>
+
+    //main strings
+    <string name="main_activity_chinese">Chinese Food</string>
+    <string name="main_activity_french">French Food</string>
+    <string name="main_activity_greek">Greek Food</string>
+    <string name="main_activity_italian">Italian Food</string>
+    <string name="main_activity_japanese">Japanese Food</string>
+
+    //Chinese restaurants
+    <string name="title_chRestaurant_1">Lai Wah Heen</string>
+    <string name="title_chRestaurant_2">Dumpling House</string>
+    <string name="title_chRestaurant_3">King’s Cafe</string>
+    <string name="title_chRestaurant_4">DaiLO</string>
+
+    <string name="address_chRestaurant_1">108 Chestnut St.</string>
+    <string name="address_chRestaurant_2">619 Gerrard St. E.</string>
+    <string name="address_chRestaurant_3">192 Augusta Ave.</string>
+    <string name="address_chRestaurant_4">503 College St.</string>
+
+    //French restaurants
+    <string name="title_frRestaurant_1">Le Sélect Bistro</string>
+    <string name="title_frRestaurant_2">Pompette</string>
+    <string name="title_frRestaurant_3">La Palette</string>
+    <string name="title_frRestaurant_4">Jules Bistro</string>
+
+    <string name="address_frRestaurant_1">432 Wellington St W.</string>
+    <string name="address_frRestaurant_2">597 College St.</string>
+    <string name="address_frRestaurant_3">492 Queen St W.</string>
+    <string name="address_frRestaurant_4">924 Queen St W.</string>
+
+</resources>
