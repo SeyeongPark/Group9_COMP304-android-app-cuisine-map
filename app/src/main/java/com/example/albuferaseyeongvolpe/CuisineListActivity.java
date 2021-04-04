@@ -32,8 +32,8 @@ public class CuisineListActivity extends AppCompatActivity {
                 switchActivityIntent = new Intent(this, ItalianActivity.class);
                 startActivity(switchActivityIntent);
                 break;
-            case R.id.switchToJapaneseActivity:
-                switchActivityIntent = new Intent(this, JapaneseActivity.class);
+            case R.id.switchToKoreanActivity:
+                switchActivityIntent = new Intent(this, KoreanActivity.class);
                 startActivity(switchActivityIntent);
                 break;
 

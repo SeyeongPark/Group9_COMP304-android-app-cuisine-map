@@ -10,7 +10,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="182dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/cover" />
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="115dp"
@@ -61,6 +66,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="10dp"
+                android:backgroundTint="@color/light_orange"
                 android:onClick="switchShowRestaurant_onClick"
                 android:text="Select" />
         </LinearLayout>
@@ -115,6 +121,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="10dp"
+                android:backgroundTint="@color/light_orange"
                 android:onClick="switchShowRestaurant_onClick"
                 android:text="Select" />
         </LinearLayout>
@@ -169,6 +176,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="10dp"
+                android:backgroundTint="@color/light_orange"
                 android:onClick="switchShowRestaurant_onClick"
                 android:text="Select" />
         </LinearLayout>
@@ -223,6 +231,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="10dp"
+                android:backgroundTint="@color/light_orange"
                 android:onClick="switchShowRestaurant_onClick"
                 android:text="Select" />
         </LinearLayout>

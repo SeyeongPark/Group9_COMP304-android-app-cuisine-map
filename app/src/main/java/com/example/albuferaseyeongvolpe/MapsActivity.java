@@ -55,11 +55,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         Intent intent = getIntent();
 
         String location = intent.getStringExtra("map_restaurant");
-//        EditText locationSearch = findViewById(R.id.ed_search);
 
-        Toast.makeText(this,"This is " + location , Toast.LENGTH_LONG).show();
-        //        locationSearch.setText(location);
-//        locationSearch.setText(location);
+        Toast.makeText(this,"Map for " + location , Toast.LENGTH_LONG).show();
 
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
@@ -134,30 +131,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         }
 
     }
-
-//    public void searchLocation(View view) {
-//        EditText locationSearch = (EditText) findViewById(R.id.ed_search);
-//        String location = locationSearch.getText().toString();
-//        List<Address> addressList = null;
-//
-//        if (location != null || !location.equals("")) {
-//            Geocoder geocoder = new Geocoder(this);
-//            try {
-//                addressList = geocoder.getFromLocationName(location, 1);
-//
-//            } catch (IOException e) {
-//                e.printStackTrace();
-//            }
-//            Address address = addressList.get(0);
-//            LatLng latLng = new LatLng(address.getLatitude(), address.getLongitude());
-//            mMap.addMarker(new MarkerOptions().position(latLng).title(location));
-//            mMap.animateCamera(CameraUpdateFactory.newLatLng(latLng));
-//            Toast.makeText(getApplicationContext(), address.getLatitude() + " " + address.getLongitude(), Toast.LENGTH_LONG).show();
-//        }
-//    }
-
-
-
     @Override
     public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
 

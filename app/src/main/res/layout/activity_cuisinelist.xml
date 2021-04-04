@@ -2,43 +2,61 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".CuisineListActivity"
-    android:orientation="vertical">
-    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".CuisineListActivity">
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="171dp"
+        app:srcCompat="@drawable/cuisine_list_cover" />
+
+    <ImageButton
         android:id="@+id/switchToChineseActivity"
-        android:layout_width="383dp"
-        android:layout_height="93dp"
+        android:layout_width="wrap_content"
+        android:layout_height="96dp"
+        android:background="#00000000"
+        android:scaleType="fitCenter"
         android:onClick="switchActivities_onClick"
-        android:text="@string/main_activity_chinese" />
+        app:srcCompat="@drawable/ch_list" />
 
-    <Button
+    <ImageButton
         android:id="@+id/switchToFrenchActivity"
-        android:layout_width="383dp"
-        android:layout_height="93dp"
+        android:layout_width="wrap_content"
+        android:layout_height="96dp"
+        android:background="#00000000"
+        android:scaleType="fitCenter"
         android:onClick="switchActivities_onClick"
-        android:text="@string/main_activity_french" />
+        app:srcCompat="@drawable/fr_list" />
 
-    <Button
+    <ImageButton
         android:id="@+id/switchToGreekActivity"
-        android:layout_width="383dp"
-        android:layout_height="93dp"
+        android:layout_width="wrap_content"
+        android:layout_height="96dp"
+        android:background="#00000000"
+        android:scaleType="fitCenter"
         android:onClick="switchActivities_onClick"
-        android:text="@string/main_activity_greek" />
+        app:srcCompat="@drawable/gr_list" />
 
-    <Button
+    <ImageButton
         android:id="@+id/switchToItalianActivity"
-        android:layout_width="383dp"
-        android:layout_height="93dp"
+        android:layout_width="wrap_content"
+        android:layout_height="96dp"
+        android:background="#00000000"
+        android:scaleType="fitCenter"
         android:onClick="switchActivities_onClick"
-        android:text="@string/main_activity_italian" />
+        app:srcCompat="@drawable/it_list" />
 
-    <Button
-        android:id="@+id/switchToJapaneseActivity"
-        android:layout_width="383dp"
-        android:layout_height="93dp"
+    <ImageButton
+        android:id="@+id/switchToKoreanActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="96dp"
+        android:background="#00000000"
+        android:scaleType="fitCenter"
         android:onClick="switchActivities_onClick"
-        android:text="@string/main_activity_japanese" />
+        app:srcCompat="@drawable/kr_list" />
 
 </LinearLayout>

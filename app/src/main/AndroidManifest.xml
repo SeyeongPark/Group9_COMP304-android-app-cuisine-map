@@ -21,7 +21,7 @@
         android:theme="@style/Theme.AlbuferaSeyeongVolpe">
         <activity android:name=".MapsActivity"/>
         <activity android:name=".FrenchActivity"/>
-        <activity android:name=".JapaneseActivity" />
+        <activity android:name=".KoreanActivity" />
         <activity android:name=".ChineseActivity" />
         <activity android:name=".GreekActivity" />
         <activity android:name=".ItalianActivity" />
